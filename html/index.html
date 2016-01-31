@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="../css/lightcase.css" />
+  <link rel="stylesheet" href="../css/styles.css" type="text/css" media="screen" title="no title">
+</head>
+
+<body>
+  <!-- Container Begin -->
+  <div class="container">
+    <div class="titleBar">
+      <h1>Interactive Photo Gallery</h1>
+      <div class="search">
+        <input id="search" name="search" placeholder="Start typing here" type="text" data-list=".list">
+      </div>
+
+    </div>
+
+    <!-- Search Bar Begin -->
+
+    <!-- Search Bar End -->
+
+
+    <!-- Photo Gallery Begin -->
+
+    <ul class="list">
+
+      <li>
+        <a href="../images/Photos/01.jpg" data-rel="lightcase:myCollection" title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+          <img src="../images/Photos/Thumbnails/01.jpg" alt="Hay Bales">
+        </a>
+        <p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
+      </li>
+
+      <li>
+        <a href="../images/Photos/02.jpg" data-rel="lightcase:myCollection" title="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+          <img src="../images/Photos/Thumbnails/02.jpg" alt="Lake">
+        </a>
+        <p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
+      </li>
+
+      <li>
+        <a href="../images/Photos/03.jpg" data-rel="lightcase:myCollection" title="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+          <img src="../images/Photos/Thumbnails/03.jpg" alt="Canyon">
+        </a>
+        <p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/04.jpg" data-rel="lightcase:myCollection" title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+          <img src="../images/Photos/Thumbnails/04.jpg" alt="Iceberg">
+        </a>
+        <p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/05.jpg" data-rel="lightcase:myCollection" title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+          <img src="../images/Photos/Thumbnails/05.jpg" alt="Desert"></a>
+          <p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/06.jpg" data-rel="lightcase:myCollection" title="Fall is coming, I love when the leaves on the trees start to change color.">
+          <img src="../images/Photos/Thumbnails/06.jpg" alt="Fall">
+        </a>
+        <p>Fall is coming, I love when the leaves on the trees start to change color.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/07.jpg" data-rel="lightcase:myCollection" title="I drove past this plantation yesterday, everything is so green!">
+          <img src="../images/Photos/Thumbnails/07.jpg" alt="Plantation">
+        </a>
+        <p>I drove past this plantation yesterday, everything is so green!</p>
+      </li>
+      <li>
+        <a href="../images/Photos/08.jpg" data-rel="lightcase:myCollection" title="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+          <img src="../images/Photos/Thumbnails/08.jpg" alt="Dunes">
+        </a>
+        <p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
+      </li>
+      <li>
+        <a href="../images/Photos/09.jpg" data-rel="lightcase:myCollection" title="We enjoyed a quiet stroll down this countryside lane.">
+          <img src="../images/Photos/Thumbnails/09.jpg" alt="Countryside Lane">
+        </a>
+        <p>We enjoyed a quiet stroll down this countryside lane.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/10.jpg" data-rel="lightcase:myCollection" title="Sunset at the coast! The sky turned a lovely shade of orange.">
+          <img src="../images/Photos/Thumbnails/10.jpg" alt="Sunset">
+        </a>
+        <p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/11.jpg" data-rel="lightcase:myCollection" title="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+          <img src="../images/Photos/Thumbnails/11.jpg" alt="Cave">
+        </a>
+        <p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
+      </li>
+      <li>
+        <a href="../images/Photos/12.jpg" data-rel="lightcase:myCollection" title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+          <img src="../images/Photos/Thumbnails/12.jpg" alt="Bluebells">
+        </a>
+        <p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/embed/DrUVMdkb4_k" data-rel="lightcase:myCollection"
+        title="Hammond is in the dunes of Abu Dhabi to drive a new six wheeled machine from Mercedes Benz – the G63 6x6. Originally developed for the Australian military, it's now available civilians - as long as you have over half a million dollars to spend! Clip taken from series 21 episode 4.">
+          <img src="../images/Photos/Thumbnails/13.jpg" id="mbenz" alt="Mercedes G63 AMG 6x6 Review - Top Gear - Series 21 - BBC">
+        </a>
+        <p>Hammond is in the dunes of Abu Dhabi to drive a new six wheeled machine from Mercedes Benz – the G63 6x6. Originally developed for the Australian military, it's now available civilians - as long as you have over half a million dollars to spend! Clip taken from series 21 episode 4.</p>
+      </li>
+    </ul>
+
+
+    <!-- Photo Gallery End -->
+
+  </div>
+  <!-- Container End -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="../js/lightcase.js"></script>
+  <script type="text/javascript" src="../js/jquery.hideseek.min.js"></script>
+  <script src="../js/jquery.sticky.js"></script>
+
+  <script>
+  jQuery(document).ready(function($) {
+		$('a[data-rel^=lightcase]').lightcase();
+	});
+
+  $(document).ready(function() {
+    $('#search').hideseek({
+      highlight: true,
+      ignore_accents: true
+    });
+
+    $(".titleBar").sticky({
+      getWidthFrom: '.container',
+      responsiveWidth: true
+    });
+  });
+
+  </script>
+
+</body>
+
+</html>
